@@ -81,12 +81,10 @@ def is_in_bounds(grid, possible_row, possible_col):
     """ Return True if loc_tuple is a legal position within grid.
         Return False otherwise. """
 
-    # Cite: Denzel Capella, Lucas Barusek and Man Nguyen
-    # Description: Denzel and Lucas state that if (row_loc, col_loc) are
-    # smaller than zero or bigger than grid_size, then (row_loc, col_loc)
-    # is outside of grid. Man states len(grid[0]) will find the number of
-    # column of the first row, which is also the number of column of the
-    # whole grid.
+    # If (row_loc, col_loc) are smaller than zero or bigger than grid_size, 
+    # then (row_loc, col_loc) is outside of grid. Man states len(grid[0]) 
+    # will find the number of column of the first row, which is also the 
+    # number of column of the whole grid.
     if possible_row < 0 or possible_row >= len(grid):
         return False
     if possible_col < 0 or possible_col >= len(grid[0]):
@@ -147,9 +145,8 @@ def wordfind(grid, words):
                 col_loc = tple[1][1]
                 pattern_loc.append((row_loc, col_loc))
 
-    # Cite: Denzel Cappella
-    # Desc: Explain and show how to change the original grid to a grid that
-    #       had the need words in uppercase.
+    # change the original grid to a grid that
+    # had the need words in uppercase.
     for tple in pattern_loc:
         row_loc = tple[0]
         col_loc = tple[1]
