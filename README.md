@@ -6,7 +6,6 @@ The program takes two parameters: a grid of lower-case single-letter strings, an
 For example, if we begin with a grid:
 
 j m w e
-
 e e p p
 
 q o x u
