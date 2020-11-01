@@ -32,9 +32,6 @@ def confirm_pattern(grid, letters_list, letter_row, letter_col,
         letter in word. If yes, continue and compare third neigbor and so on.
         If not, change direction. """
 
-        # Cite: Professor Campbell
-        # Desc: Use concepts from Professor Campbell's C4 program
-
     patterns = []
 
     # For each location that is followed the starting location (the location
@@ -55,9 +52,6 @@ def find_pattern_in(grid, letters_list, start_row, start_col):
         examine if there is a pattern. A pattern exists when all letters
         of a word are located in one direction. """
 
-    # Cite: Professor Campbell
-    # Desc: Use concepts from Professor Campbell's C4 program
-
     directions = [(-1, 0), (-1, 1), (0, 1), (1, 1),
                   (1, 0), (1, -1), (0, -1), (-1, -1)]
 
@@ -77,9 +71,6 @@ def find_pattern(grid, letters_list, start_location):
     """ For each location of the first letter of the word, try to find
         if one of the directions continues to spelling out the word. """
 
-        # Cite: Professor Campbell
-        # Desc: Use concepts from Professor Campbell's C4 program
-
     # From each starting location (first letter of a word), look at all
     # directions and find a pattern (a pattern is found when all letters
     # in a word is found in a single direction)
@@ -96,7 +87,7 @@ def is_in_bounds(grid, possible_row, possible_col):
     """ Return True if loc_tuple is a legal position within grid.
         Return False otherwise. """
 
-    # Cite: Denzel Capella, Lucas Steele (Rigatoni)(Barusek) and Man Nguyen
+    # Cite: Denzel Capella, Lucas Barusek and Man Nguyen
     # Description: Denzel and Lucas state that if (row_loc, col_loc) are
     # smaller than zero or bigger than grid_size, then (row_loc, col_loc)
     # is outside of grid. Man states len(grid[0]) will find the number of
