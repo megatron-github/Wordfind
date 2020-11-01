@@ -2,12 +2,6 @@
  *****************************************************************************
    FILE:        wordfind.py
 
-   AUTHOR:      Truong Pham
-
-   ASSIGNMENT:  Project: Wordfind
-
-   DATE:        10/5/2018
-
    DESCRIPTION: With a given grid of letters, and a list of words. Find all
                 the words in the grid, if possible. Report how many word in
                 are actually found in the grid. Print all found words in the
