@@ -6,17 +6,25 @@ The program takes two parameters: a grid of lower-case single-letter strings, an
 For example, if we begin with a grid:
 
 j m w e
+
 e e p p
+
 q o x u
+
 w w e d
+
 w g j o
 
 and a list of words ['meow', 'wed', 'do', 'justice'], the wordfind function modifies the grid:
 
 j M w e
+
 e E p p
+
 q O x u
+
 w W E D
+
 w g j O
 
 and returns 3.
