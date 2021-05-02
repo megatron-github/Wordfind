@@ -1,4 +1,3 @@
 # Wordfind
-A program that solve word search puzzles
 
-The program takes two parameters: a grid of lower-case single-letter strings, and a list of lower-case words. For each word, find it in the grid, if possible. If found, then for each letter comprising the word in the grid, change the letter to its capitalized version. The program returns the number of words that were found. Words can occur in any of the 8 directions. They can also overlap in one or more letters. A word will only occur once in the puzzle. 
+Wordfind is a project that shows how a Wordsearch puzzle can be solved using a simple programming algorithm. The program begins with two intended parameters: a grid of lower-case single-lettered strings and a list of lower-case words. The goal is to find all the given words from the grid, if possible. A word can occur in any of the eight directions. Multiple words can overlap in one or more letters. However, each word can only found once in the puzzle. When the program found the word, it will capitalize each letter comprising the word in the grid. After searching through the entire grid, the program will return the number of founded words. 
